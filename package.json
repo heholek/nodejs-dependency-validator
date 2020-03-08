@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-dependency-validator-action",
+  "version": "1.0.0",
+  "description": "Checks if JavaScript dependencies are being used and correct.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index",
+    "test": "echo \"Error: nothing tests\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrew-hc/nodejs-dependency-validator.git"
+  },
+  "author": "Andrew HC (sidshah203@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrew-hc/nodejs-dependency-validator/issues"
+  },
+  "homepage": "https://github.com/andrew-hc/nodejs-dependency-validator#readme",
+  "dependencies": {
+    "depcheck": "^0.9.2"
+  }
+}
